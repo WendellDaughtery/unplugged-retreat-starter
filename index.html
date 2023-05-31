@@ -3,10 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Unplugged retreat</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <title>Unplugged Retreat</title>
   <meta property="og:title" content="">
   <meta property="og:type" content="">
   <meta property="og:url" content="">
@@ -26,13 +23,16 @@
 
   <!--header-->
   <header>
-    <div>
-      <a href="#">
-        <!--header image-->
-        <img src="img/unpluggedlogo.png" alt="unplugged logo">
-        <div>
-        </div>
 
+    <div class="content-wrapper"> <!--beginning of the header content-wrapper-->
+
+       <!--header image-->
+      <a href="#">
+        <img src="img/unpluggedlogo.png" alt="unplugged logo">
+      </a>
+
+      <!--header-divider-->
+      <div class="header-divider">
         <!--header navigation-->
         <nav>
           <ul>
@@ -40,35 +40,59 @@
             <li><a href="about/index.html" target="_blank" rel="noopener">About</a></li>
           </ul>
         </nav>
-      </a>
-    </div>
+      </div>
+
+    </div> <!--end of the header content-wrapper-->
+
   </header>
 
   <!--main-->
   <main>
 
-    <section>
-      <!--main hero image-->
-      <img src="img/unplugged-retreat.jpg" alt="unplugged retreat">
-      <h1>Retreat from the desk, returned refreshed.</h1>
-    </section>
-    <aside>
-      <h3>Want to join the next retreat?</h3>
-      <p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
-      <h3>Find out more</h3>
-      <input type="text" name="name" value="email address">
-      <input type="button" value="Download Itinerary">
-    </aside>
+    <section class="hero-area"> <!-- beginning of the hero area-->
+
+      <div content-wrapper> <!--beginning of the hero-area content-wrapper-->
+
+        <!--main hero image-->
+        <img src="img/unplugged-retreat.jpg" alt="unplugged retreat">
+        <h1>Retreat from the desk, returned refreshed.</h1>
+
+      </div> <!--end of the hero-area content-wrapper-->
+
+    </section> <!--end of the hero area-->
+
+    <aside> <!--beginning of the aside section-->
+
+      <div class="content-wrapper"> <!--beginning of the aside content-wrapper-->
+
+        <!--form-description-->
+        <div class="form-description">
+          <h3>Want to join the next retreat?</h3>
+          <p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
+        </div>
+
+        <!--form-->
+        <div class="form">
+          <h3>Find out more</h3>
+          <input type="text" name="name" value="name@email.com">
+          <input type="button" value="Download Itinerary">
+        </div>
+
+      </div> <!--end of the aside content-wrapper-->
+
+    </aside> <!--end of the aside section-->
 
   </main>
 
   <!--footer-->
   <footer>
-    <div .content-wrapper>
 
-      <div .footer-contact>
+    <div .content-wrapper> <!--beginning of the footer content-wrapper-->
+
+      <div class="footer-content"> <!--beginning of the footer content-->
+
         <!--footer contact info-->
-        <div .contact>
+        <div class="contact">
           <h4>Contact</h4>
           <address>
             <p>
@@ -79,7 +103,7 @@
         </div>
 
         <!--footer social media-->
-        <div .social>
+        <div class="social">
           <h4>Social</h4>
           <a href="https://www.facebook.com" target="_blank" rel="noopener">
             <img src="img/facebook.png" alt="facebook icon">
@@ -92,13 +116,14 @@
           </a>
         </div>
 
-      </div>
+      </div> <!--end of the footer-content-->
 
       <!--copyright-->
-      <div .copyright>
+      <div class="copyright">
         copyright 2023 | Unplugged
       </div>
-    </div>
+
+    </div> <!--end of the footer content-wrapper-->
 
     <!--footer-->
   </footer>
