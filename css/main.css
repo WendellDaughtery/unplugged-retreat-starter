@@ -100,7 +100,7 @@ body {
 }
 
 .content-wrapper {
-  width: 60%;
+  width: 90%;
 }
 
 /*===========================================================================
@@ -112,7 +112,7 @@ body {
 header {
   display: flex;
   justify-content: center;
-
+  background: #202322;
 }
 
 header .content-wrapper {
@@ -120,12 +120,12 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background: #202322;
+
 }
 
 header img {
   width: 60%;
-  padding: 15px 120px 10px;
+  padding: 15px 60px 10px;
 }
 
 h1 {
@@ -133,7 +133,7 @@ h1 {
   font-size: 36px;
   line-height: 43px;
   font-weight: 500;
-  padding-left: 5%;
+  padding-left: 5px;
 }
 
 .header-divider {
@@ -157,7 +157,7 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
-
+  background: #202322;
 }
 
 footer .content-wrapper {
@@ -165,13 +165,35 @@ footer .content-wrapper {
   justify-content: center;
   width: 60%;
   padding: 50px 0;
-  background: #202322;
+
 }
+
+/*----------Contact Section----------*/
+
+.contact h4{
+  font-family: 'Poppins', sans-serif;;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contact address {
+  font-style: normal;
+}
+
+/*----------Social Section----------*/
 
 .social-icons {
   display: flex;
   justify-content: center;
 }
+
+/*----------Copyright----------*/
+
+.copyright {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding: 20px 0;
+    }
 
 /*===============================
 Main Homepage
@@ -181,10 +203,6 @@ Main Homepage
 .hero-area {
   display: flex;
   justify-content: center;
-
-}
-
-.hero-area .content-wrapper {
   background-image: url("../img/unplugged-retreat.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -198,30 +216,37 @@ Main Homepage
 aside {
   display: flex;
   justify-content: center;
-
-}
-
-aside .content-wrapper {
   padding: 50px 0;
   background: #527158;
+}
 
+aside h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+aside p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  padding: 0 5%;
   gap: 40px;
 }
 
-.form h3{
+
+/*----------Form----------*/
+
+.form h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 500;
+  padding-left: 5px;
 }
 
 .form-description {
-  padding-left: 5%;
+  padding-left: 5px;
 }
 
 .form-description h3 {
@@ -230,16 +255,13 @@ aside .content-wrapper {
   font-weight: 500;
 }
 
-input {
+input[type=text] {
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 500;
   color: #2a423a;
   padding: 20px;
-
-}
-
-input[type=text] {
-  font-family: 'Poppins', sans-serif;
+  margin: 0 5px;
 
 }
 
@@ -247,16 +269,27 @@ input[type=button] {
   font-family: 'Poppins', sans-serif;
   background: #2a423a;
   color: #e2e3ed;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 20px;
+  margin: 0 5px;
 }
 
 /*----------Features----------*/
 .features {
   display: flex;
   justify-content: center;
+  background-image: url("../img/unplugged-retreat-features.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .features h2 {
-  padding-left: 5%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  padding-left: 5px;
 }
 
 .features-items {
@@ -267,60 +300,56 @@ input[type=button] {
   align-items: center;
 }
 
-.features-items-descriptions p {
+.features p {
   display: flex;
   justify-content: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 18px;
+  width: 63%;
 
-}
-
-.features .content-wrapper {
-  background-image: url("../img/unplugged-retreat-features.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 500px;
-  background-size: cover;
 }
 
 /*----------Reviews----------*/
 .reviews {
   display: flex;
   justify-content: center;
+  background: #2a423a;
 }
 
 .reviews .content-wrapper {
   display: flex;
   flex-flow: row wrap;
-  background: #2a423a;
   padding: 50px 0;
 
 }
 
 .reviews h2 {
-  padding: 0 5%;
-  line-height: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 40px;
 }
 
 .reviews img {
-  width: 90%;
-  height: 500px;
+  width: 95%;
+  height: 300px;
   background-position: center;
-  padding: 5%;
+  padding: 0 5px;
 
-}
-
-.reviews article {
-  padding: 0 5%;
-  width: 60%;
 }
 
 .reviews article h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 500;
-  padding: 20px 0;
+  padding: 20px 5px;
+}
+
+.reviews article p {
+  font-family: 'Open Sans', sans-serif ;
+  font-size: 14px;
+  padding-left: 5px;
 }
 
 /*===========================================================================
@@ -334,6 +363,8 @@ About Page Styles
   justify-content: center;
   background: #527158;
 }
+
+/*----------Contact Section----------*/
 
 .contact-section {
   display: flex;
