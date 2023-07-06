@@ -120,7 +120,7 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
+  margin: 0;
 }
 
 header img {
@@ -146,6 +146,7 @@ header nav {
 }
 
 header nav ul {
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: bold;
   display: flex;
@@ -179,11 +180,17 @@ footer .content-wrapper {
 
 }
 
+footer p {
+  font-family: 'Opens Sans', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+}
+
 /*----------Contact Section----------*/
 
 .contact h4 {
   font-family: 'Poppins', sans-serif;
-  ;
   font-size: 18px;
   font-weight: 500;
 }
@@ -233,12 +240,14 @@ aside {
 }
 
 aside h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
 }
 
 aside p {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  line-height: 18px;
 }
 
 /*----------Form----------*/
@@ -307,6 +316,13 @@ input[type=button] {
   padding-left: 5px;
 }
 
+.features p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+}
+
 .features-items {
   display: flex;
   justify-content: center;
@@ -315,13 +331,11 @@ input[type=button] {
   align-items: center;
 }
 
-
-
 .features article {
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   justify-content: center;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 18px;
   width: 63%;
@@ -346,7 +360,8 @@ input[type=button] {
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
   font-weight: 500;
-  padding-bottom: 40px;
+
+
 }
 
 .reviews img {
@@ -367,6 +382,7 @@ input[type=button] {
 .reviews article p {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  line-height: 18px;
   padding-left: 5px;
 }
 
@@ -382,12 +398,34 @@ About Page Styles
   background: #527158;
 }
 
+.mission h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.mission-content p {
+  font-family: 'Opens Sans', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
 /*----------Contact Section----------*/
 
 .contact-section {
   display: flex;
   justify-content: center;
   background: #2a423a;
+}
+
+.contact-section h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.contact-content {
+  margin: 0;
 }
 
 /*============================================================================
@@ -400,6 +438,9 @@ FAQ Page Styles
   display: flex;
   justify-content: center;
   background: #527158;
+  padding: 50px 0;
+  margin: 0;
+
 }
 
 .faq .content-wrapper {
@@ -410,14 +451,23 @@ FAQ Page Styles
 }
 
 .faq h2 {
-  line-height: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+
 }
 
 .faq-content h4 {
-  line-height: 24px;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  line-height: 24px;
+
+}
+
+.faq-content p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 /* ==========================================================================
