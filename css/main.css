@@ -95,6 +95,7 @@ Mobile
 
 
 body {
+  font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   color: #e2e3ed;
 }
@@ -113,6 +114,7 @@ header {
   display: flex;
   justify-content: center;
   background: #202322;
+
 }
 
 header .content-wrapper {
@@ -121,11 +123,13 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+
 }
 
 header img {
   width: 60%;
   padding: 15px 60px 10px;
+
 }
 
 h1 {
@@ -134,15 +138,18 @@ h1 {
   line-height: 43px;
   font-weight: 500;
   padding-left: 5px;
+
 }
 
 .header-divider {
   width: 60%;
+
 }
 
 header nav {
   width: 60%;
   justify-content: center;
+
 }
 
 header nav ul {
@@ -160,6 +167,7 @@ header nav ul {
 header nav ul a {
   color: #e2e3ed;
   text-decoration: none;
+
 }
 
 /*----------Footer----------*/
@@ -170,6 +178,7 @@ footer {
   align-items: center;
   text-align: center;
   background: #202322;
+
 }
 
 footer .content-wrapper {
@@ -185,6 +194,7 @@ footer p {
   font-size: 14px;
   line-height: 18px;
   margin: 0;
+
 }
 
 /*----------Contact Section----------*/
@@ -193,10 +203,12 @@ footer p {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 500;
+
 }
 
 .contact address {
   font-style: normal;
+
 }
 
 /*----------Social Section----------*/
@@ -204,6 +216,7 @@ footer p {
 .social-icons {
   display: flex;
   justify-content: center;
+
 }
 
 /*----------Copyright----------*/
@@ -212,6 +225,7 @@ footer p {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   padding: 20px 0;
+
 }
 
 /*===============================
@@ -225,9 +239,10 @@ Main Homepage
   background-image: url("../img/unplugged-retreat.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
   background-size: cover;
+  height: 500px;
   padding: 50px 0;
+
 }
 
 /*----------Aside----------*/
@@ -237,17 +252,20 @@ aside {
   justify-content: center;
   padding: 50px 0;
   background: #527158;
+
 }
 
 aside h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
+
 }
 
 aside p {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 18px;
+
 }
 
 /*----------Form----------*/
@@ -256,6 +274,7 @@ aside p {
   display: flex;
   flex-direction: column;
   gap: 40px;
+
 }
 
 .form h3 {
@@ -263,16 +282,19 @@ aside p {
   font-size: 18px;
   font-weight: 500;
   padding-left: 5px;
+
 }
 
 .form-description {
   padding-left: 5px;
+
 }
 
 .form-description h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 500;
+
 }
 
 
@@ -296,6 +318,7 @@ input[type=button] {
   font-weight: 500;
   padding: 20px;
   margin: 0 5px;
+
 }
 
 /*----------Features----------*/
@@ -306,7 +329,8 @@ input[type=button] {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 50px 0
+  padding: 50px 0;
+
 }
 
 .features h2 {
@@ -314,6 +338,7 @@ input[type=button] {
   font-size: 30px;
   font-weight: 500;
   padding-left: 5px;
+
 }
 
 .features p {
@@ -321,6 +346,7 @@ input[type=button] {
   font-size: 14px;
   line-height: 18px;
   margin: 0;
+
 }
 
 .features-items {
@@ -329,6 +355,7 @@ input[type=button] {
   flex-flow: row wrap;
   flex-direction: column;
   align-items: center;
+
 }
 
 .features article {
@@ -347,6 +374,7 @@ input[type=button] {
   display: flex;
   justify-content: center;
   background: #2a423a;
+
 }
 
 .reviews .content-wrapper {
@@ -360,7 +388,6 @@ input[type=button] {
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
   font-weight: 500;
-
 
 }
 
@@ -377,6 +404,7 @@ input[type=button] {
   font-size: 18px;
   font-weight: 500;
   padding: 20px 5px;
+
 }
 
 .reviews article p {
@@ -384,6 +412,7 @@ input[type=button] {
   font-size: 14px;
   line-height: 18px;
   padding-left: 5px;
+
 }
 
 /*===========================================================================
@@ -396,18 +425,21 @@ About Page Styles
   display: flex;
   justify-content: center;
   background: #527158;
+
 }
 
 .mission h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
   font-weight: 500;
+
 }
 
 .mission-content p {
   font-family: 'Opens Sans', sans-serif;
   font-size: 14px;
   line-height: 18px;
+
 }
 
 /*----------Contact Section----------*/
@@ -416,16 +448,19 @@ About Page Styles
   display: flex;
   justify-content: center;
   background: #2a423a;
+
 }
 
 .contact-section h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
   font-weight: 500;
+
 }
 
 .contact-content {
   margin: 0;
+
 }
 
 /*============================================================================
@@ -448,6 +483,7 @@ FAQ Page Styles
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+
 }
 
 .faq h2 {
@@ -468,6 +504,7 @@ FAQ Page Styles
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 18px;
+
 }
 
 /* ==========================================================================
